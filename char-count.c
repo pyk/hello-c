@@ -1,13 +1,11 @@
 #include <stdio.h>
 
-// count character in input; 1st version
+// count character in input; 2nd version
+// 1st version available on previous commit
 main()
 {
-    long nc;
+    double nc;
 
-    nc = 0;
-    while(getchar() != EOF) {
-        ++nc;
-    }
-    printf("%ld\n", nc);
+    for(nc = 0; getchar() != EOF; ++nc){}
+    printf("%.0f\n", nc);
 }
