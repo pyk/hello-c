@@ -1,3 +1,5 @@
+// Exercise 1-4
+// Write a program to print corresponding Celcius to Fahrenheit table.
 #include <stdio.h>
 
 main()
@@ -10,10 +12,10 @@ main()
     step = 20;      // step size
 
     celsius = lower;
-    printf("C\tF\n");
+    printf("celsius\tfahr\n");
     while (celsius <= upper) {
         fahr = ((9.0/5.0) * celsius)+32.0;
-        printf("%.0f\t%.1f\n", celsius, fahr);
+        printf("%3.0f\t%6.2f\n", celsius, fahr);
         celsius += step;
     }
 }

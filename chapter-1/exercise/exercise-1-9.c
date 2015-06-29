@@ -5,9 +5,8 @@
 
 main()
 {
-    int c;
-    // blank is used to track the squence of blanks
-    int blank;
+    int c, blank; // 'blank' is used to track the squence of blanks
+
     blank = 0;
     while((c = getchar()) != EOF) {
         if (c == ' ')
@@ -19,7 +18,7 @@ main()
             {
                 c -= ' ';
             }
-        } 
+        }
         else {
             // blank not appear in squence, netralize the blank tracker.
             blank = 0;

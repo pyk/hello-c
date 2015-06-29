@@ -3,7 +3,7 @@
 // for conversion
 #include <stdio.h>
 
-// celcius function
+// celcius function prototype
 float celcius(float fahr);
 
 // print fahrenheit-celcius table using `for` statement
@@ -11,9 +11,7 @@ main()
 {
     int fahr;
     for (fahr = 0; fahr <= 300; fahr += 20)
-    {
-        printf("%3d %6.1f\n", fahr, celcius(fahr));
-    }
+        printf("%3d %6.2f\n", fahr, celcius(fahr));
 }
 
 float celcius(float fahr) {
