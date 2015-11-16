@@ -1,6 +1,7 @@
+/* Section 1.5.3 - Line counting */
 #include <stdio.h>
 
-// count line in input
+/* count line in input */
 main() {
     int c, nl;
 

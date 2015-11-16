@@ -1,3 +1,4 @@
+/* Section 1.10 - External variable and scope */
 #include <stdio.h>
 
 #define MAXLINE 1000    /* maximum input line size */

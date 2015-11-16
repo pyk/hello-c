@@ -1,6 +1,7 @@
+/* Section 1.5.2 - Character counting */
 #include <stdio.h>
 
-// count characters in input; 1st version
+/* count characters in input; 1st version */
 main()
 {
     long nc;

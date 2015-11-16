@@ -1,3 +1,4 @@
+/* Section 1.8 - Call by value */
 #include <stdio.h>
 
 int power(int base, int n);

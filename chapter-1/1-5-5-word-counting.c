@@ -1,9 +1,10 @@
+/* Section 1.5.4 - Word counting */
 #include <stdio.h>
 
-#define IN  1 // inside word
-#define OUT 0 // outside word
+#define IN  1 /* inside a word */
+#define OUT 0 /* outside a word */
 
-// count lines, words, and characters in input
+/* count lines, words, and characters in input */
 main()
 {
     int c, nl, nw, nc, state;

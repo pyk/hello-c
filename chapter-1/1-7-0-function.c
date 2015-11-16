@@ -1,8 +1,9 @@
+/* Section 1.7 - Functions */
 #include <stdio.h>
 
-int power(int m, int n); // power function prototype
+int power(int m, int n); /* power function prototype */
 
-// test power function
+/* test power function */
 main()
 {
     int i;
@@ -12,7 +13,7 @@ main()
     return 0;
 }
 
-// power: raise base to n-th power; n >= 0
+/* power: raise base to n-th power; n >= 0 */
 int power(int base, int n)
 {
     int i, p;

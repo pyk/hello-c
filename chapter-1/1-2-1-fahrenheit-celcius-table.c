@@ -1,14 +1,16 @@
+/*  Section 1.2 - Variables and Arithmetic Expressions */
 #include <stdio.h>
 
-// print fahrenheit-celsius table
+/*  Print Fahrenheit-Celsius table
+    for far = 0, 20, ..., 300; floating point version */
 main()
 {
     float fahr, celsius;
     int lower, upper, step;
 
-    lower = 0;      // lower limit of temperature table
-    upper = 300;    // upper limit
-    step = 20;      // step size
+    lower = 0;      /* lower limit of temperature table */
+    upper = 300;    /* upper limit */
+    step = 20;      /* step size */
 
     fahr = lower;
     while (fahr <= upper) {

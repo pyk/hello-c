@@ -1,6 +1,7 @@
+/* Section 1.6 - Arrays */
 #include <stdio.h>
 
-// count digits, white space, others
+/* count digits, white space, others */
 main()
 {
     int c, i, nwhite, nother;

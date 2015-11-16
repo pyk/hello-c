@@ -1,3 +1,4 @@
+/* Section 2.3 - Constants */
 #include <stdio.h>
 
 int strlen(char s[]);
@@ -8,6 +9,7 @@ main()
     printf("strlen(str) = %d\n", strlen(str));
 }
 
+/* strlen: return length of s */
 int strlen(char s[])
 {
     int i;

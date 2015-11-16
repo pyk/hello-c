@@ -1,3 +1,4 @@
+/* Section 2.7 - Type conversions */
 #include <stdio.h>
 
 int atoi(char s[]);
@@ -12,7 +13,7 @@ main()
     printf("atoi(\"h55l0\"): %d\n", atoi(s2));
 }
 
-/* atoi: convert S to integer */
+/* atoi: convert s to integer */
 int
 atoi(char s[])
 {

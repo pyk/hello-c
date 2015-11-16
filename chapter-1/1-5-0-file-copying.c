@@ -1,11 +1,12 @@
+/* Section 1.5 - Chatacter input and output */
 #include <stdio.h>
 
-// copy input to output; 1st version
+/* copy input to output; 1st version */
 main()
 {
     int c;
 
-    c = getchar(); // block until a new line
+    c = getchar(); /* block until a new line */
     while (c != EOF) {
         putchar(c);
         c = getchar();
