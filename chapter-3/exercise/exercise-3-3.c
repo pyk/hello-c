@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include <string.h>
+#include <errno.h>
 
 #define MAXWRITE 50
 
@@ -68,8 +69,8 @@ int main()
  * parameter is the maximum number of bytes allowed to write. And the last one
  * is a source of the pattern to expand. 
  *
- * It returns the number of bytes written into res. And -1 is returned if source
- * pattern is invalid.
+ * It returns the number of bytes written into res.
+ * If the source pattern is invalid, -1 will returned and errno will set to EINVAL.
  */
 int expand(char res[], int n, char src[])
 {
@@ -114,5 +115,6 @@ int expand(char res[], int n, char src[])
 
 invalid:
     res[0] = '\0';
+    errno = EINVAL;
     return -1;
 }
