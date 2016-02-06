@@ -70,7 +70,8 @@ int main()
  * is a source of the pattern to expand. 
  *
  * It returns the number of bytes written into res.
- * If the source pattern is invalid, -1 will returned and errno will set to EINVAL.
+ * If the source pattern is invalid, -1 will returned and errno will set to 
+ * EINVAL.
  */
 int expand(char res[], int n, char src[])
 {
